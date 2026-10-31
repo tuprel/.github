@@ -78,3 +78,24 @@ No separate website, support email, chat service or other product is invented.
 - Profile source: ../profile/README.md
 - Main documentation: https://github.com/tuprel/tuprel/blob/main/docs/README.md
 - Current public organization: https://github.com/tuprel
+
+### Rendered preview results
+
+The branch profile was inspected in GitHub's real Markdown renderer:
+
+- Light desktop: hero, all six badges and horizontal workflow visible and legible.
+- Light 390 × 844: primary links wrap naturally; badges retain three pairs;
+  currentSrc confirms workflow-mobile-light.svg, displayed at 280px.
+- Light 320 × 740: tagline wraps into two lines; all badges fit; article clientWidth
+  and scrollWidth are both 239px, with no content overflow.
+- Dark desktop/mobile: NOT VERIFIED. This signed-out browser session did not
+  expose a usable Dark selector. Existing Dark SVG variants returned HTTP 200;
+  that does not replace visual verification. No synthetic Dark screenshot was made.
+- Physical iPhone/Safari and macOS: NOT VERIFIED. Mobile evidence is viewport testing.
+- The actual organization-page layout after merge remains a publication check;
+  previews are branch-file views, not an already published organization redesign.
+
+Before/after screenshots are retained locally for review, outside tracked files.
+The pull request links directly to the rendered branch profile. Settings proposals
+remain unapplied, and the public organization still shows the existing profile
+until this PR is approved and merged by the owner.
